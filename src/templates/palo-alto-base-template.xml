@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<config urldb="paloaltonetworks" version="10.0.0">
+    <mgt-config>
+        <users>
+          {% for user in users %}
+          <entry name="{{ user.name }}">
+              <phash>$1$bejmetuw$2gTe0zDTmsG6kfDnF7NpG1</phash>
+              <permissions>
+                  <role-based>
+                  <superuser>{{ user.superuser }}</superuser>
+                  </role-based>
+              </permissions>
+          </entry>
+          {% endfor %}
+        </users>
+    </mgt-config>
+    <shared>
+        <application/>
+        <application-group/>
+        <service/>
+        <service-group/>
+        <botnet>
+          <configuration>
+            <http>
+              <dynamic-dns>
+                <enabled>yes</enabled>
+                <threshold>5</threshold>
+              </dynamic-dns>
+              <malware-sites>
+                <enabled>yes</enabled>
+                <threshold>5</threshold>
+              </malware-sites>
+              <recent-domains>
+                <enabled>yes</enabled>
+                <threshold>5</threshold>
+              </recent-domains>
+              <ip-domains>
+                <enabled>yes</enabled>
+                <threshold>10</threshold>
+              </ip-domains>
+              <executables-from-unknown-sites>
+                <enabled>yes</enabled>
+                <threshold>5</threshold>
+              </executables-from-unknown-sites>
+            </http>
+            <other-applications>
+              <irc>yes</irc>
+            </other-applications>
+            <unknown-applications>
+              <unknown-tcp>
+                <destinations-per-hour>10</destinations-per-hour>
+                <sessions-per-hour>10</sessions-per-hour>
+                <session-length>
+                  <maximum-bytes>100</maximum-bytes>
+                  <minimum-bytes>50</minimum-bytes>
+                </session-length>
+              </unknown-tcp>
+              <unknown-udp>
+                <destinations-per-hour>10</destinations-per-hour>
+                <sessions-per-hour>10</sessions-per-hour>
+                <session-length>
+                  <maximum-bytes>100</maximum-bytes>
+                  <minimum-bytes>50</minimum-bytes>
+                </session-length>
+              </unknown-udp>
+            </unknown-applications>
+          </configuration>
+          <report>
+            <topn>100</topn>
+            <scheduled>yes</scheduled>
+          </report>
+        </botnet>
+        <certificate>
+          {% include "palo-alto-certificate.xml" %}
+        </certificate>
+        <ssl-tls-service-profile>
+          <entry name="self-singned-ssl-profile">
+            <protocol-settings>
+              <min-version>tls1-0</min-version>
+              <max-version>max</max-version>
+            </protocol-settings>
+            <certificate>self-signed</certificate>
+          </entry>
+        </ssl-tls-service-profile>
+        <content-preview>
+          {% include "palo-alto-content-preview.xml" %}
+        </content-preview>
+    </shared>
+    <devices>
+        <entry name="localhost.localdomain">
+        <network>
+         {% include "generated-network.xml" %}
+        </network>
+        <deviceconfig>
+           <system>
+            <update-server>updates.paloaltonetworks.com</update-server>
+            <update-schedule>
+            <threats>
+              <recurring>
+                <weekly>
+                  <day-of-week>wednesday</day-of-week>
+                  <at>01:02</at>
+                  <action>download-only</action>
+                </weekly>
+              </recurring>
+            </threats>
+          </update-schedule>
+          <timezone>US/Pacific</timezone>
+          <service>
+            <disable-telnet>yes</disable-telnet>
+            <disable-http>yes</disable-http>
+          </service>
+          <type>
+            <dhcp-client>
+              <send-hostname>{{ deviceconfig.dhcpclient.sendhostname }}</send-hostname>
+              <send-client-id>{{ deviceconfig.dhcpclient.sendclientid }}</send-client-id>
+              <accept-dhcp-hostname>{{ deviceconfig.dhcpclient.acceptdhcphostname }}</accept-dhcp-hostname>
+              <accept-dhcp-domain>{{ deviceconfig.dhcpclient.acceptdhcpdomain }}</accept-dhcp-domain>
+            </dhcp-client>
+          </type>
+          <server-verification>{{ deviceconfig.serververification }}</server-verification>
+          <hostname>{{ deviceconfig.hostname }}</hostname>
+        </system>
+        <setting>
+          <config>
+            <rematch>yes</rematch>
+          </config>
+          <ctd>
+            <x-forwarded-for>1</x-forwarded-for>
+          </ctd>
+        </setting>
+        <plugins>
+          <vm_series version="2.0.0">
+            <azure-advanced-metrics>
+              <enable>yes</enable>
+              <instrumentation-key>{{ deviceconfig.instrkey }}</instrumentation-key>
+              <update-interval>1</update-interval>
+            </azure-advanced-metrics>
+          </vm_series>
+        </plugins>
+        </deviceconfig>
+        <vsys>
+        {% include "generated-vsys.xml" %}
+        </vsys>
+        </entry>
+    </devices>
+</config>

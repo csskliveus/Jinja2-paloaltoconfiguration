@@ -1,0 +1,3364 @@
+        <entry id="10360" minver="7.1.0" name="amazon-prime-video" ori_country="USA" ori_language="English">
+          <category>media</category>
+          <subcategory>photo-video</subcategory>
+          <technology>browser-based</technology>
+          <description>Amazon Prime Video, is an American Internet video on demand service by Amazon. It offers television shows and films for rent or purchase and Prime Video, a selection of Amazon Studios original content and licensed acquisitions included in the Amazon's Prime subscription.</description>
+          <appident>yes</appident>
+          <spyware-ident>yes</spyware-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>yes</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <parent-app>web20_parrent_app</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="primevideo">
+              <link>https://www.primevideo.com</link>
+            </entry>
+            <entry name="wikipedia">
+              <link>https://en.wikipedia.org/wiki/Prime_Video</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10358" minver="7.1.0" name="azure-govt-key-vault" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>database</subcategory>
+          <technology>browser-based</technology>
+          <description>Microsoft Azure Key Vault is a cloud-hosted management service that allows users to encrypt keys and small secrets by using keys that are protected by hardware security modules (HSMs). This appid covers the key vault service traffic for Azure Government.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Microsoft Azure">
+              <link>https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-securityandidentity</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="2561" minver="6.1.0" name="beyond-trust-remote-support" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>remote-access</subcategory>
+          <technology>client-server</technology>
+          <description>Bomgar has been acquired by Beyond trust and bomgar remote support is now Beyond trust remote support. BeyondTrust Remote Support works across Windows, Mac, Linux, Android, iOS, and Chrome OS. Access and control any remote computer or device, on or off the network - no VPN required. This appid covers browser and mobile traffic for remote support.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic2</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Beyond Trust">
+              <link>https://www.beyondtrust.com/remote-support</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <implicit-use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </implicit-use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10376" minver="7.1.0" name="dnp3-unsolicited-message" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>This App-ID covers DNP3 function code for unsolicited messages.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>dnp3</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>dnp3-base</parent-app>
+          <references>
+            <entry name="DNP">
+              <link>http://www.dnp.org/</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/DNP3</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/20000</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>dnp3-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>dnp3</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10365" minver="7.1.0" name="interactive-brokers" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>browser-based</technology>
+          <description>Interactive Brokers LLC (IB) is a U.S. brokerage firm. It operates the largest electronic trading platform in the U.S. by number of daily average revenue trades. The appid covers the traffic between Trader workstation and client portal.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <parent-app>web20_parrent_app</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/Interactive_Brokers</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443,4000</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+            <member minver="3.1.0">websocket</member>
+          </use-applications>
+          <implicit-use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </implicit-use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10345" minver="7.1.0" name="ms-onenote-downloading" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>office-programs</subcategory>
+          <technology>browser-based</technology>
+          <description>Microsoft OneNote is a computer program for free-form information gathering and multi-user collaboration. It gathers users' notes (handwritten or typed), drawings, screen clippings and audio commentaries. This appid covers the browser downloading traffic for ms-onenote</description>
+          <appident>yes</appident>
+          <virus-ident>yes</virus-ident>
+          <spyware-ident>yes</spyware-ident>
+          <file-type-ident>yes</file-type-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <file-forward>yes</file-forward>
+          <can-disable>yes</can-disable>
+          <parent-app>ms-onenote-base</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/Microsoft_OneNote</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications minver="5.0.0">
+            <member minver="5.0.0">ms-onenote-base</member>
+          </use-applications>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="2376" minver="5.0.0" name="ms-onenote-base" ori_country="USA" ori_language="English">
+          <ottawa-name>ms-onenote</ottawa-name>
+          <category>business-systems</category>
+          <subcategory>office-programs</subcategory>
+          <technology>browser-based</technology>
+          <description>Microsoft OneNote is a computer program for free-form information gathering and multi-user collaboration. It gathers users' notes (handwritten or typed), drawings, screen clippings and audio commentaries. Notes can be shared with other OneNote users over the Internet or a network. A web-based version of OneNote is provided as part of OneDrive or Office Online and enables users to edit notes via a web browser.</description>
+          <appident>yes</appident>
+          <spyware-ident>yes</spyware-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/Microsoft_OneNote</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member minver="3.1.0">ms-office365-base</member>
+            <member minver="5.0.0">ms-onedrive-base</member>
+            <member minver="5.0.0">office365-consumer-access</member>
+            <member>ssl</member>
+          </use-applications>
+          <tunnel-applications minver="7.1.0">
+            <member minver="7.1.0">ms-onenote-downloading</member>
+            <member minver="7.1.0">ms-onenote-uploading</member>
+          </tunnel-applications>
+          <implicit-use-applications>
+            <member>ssl</member>
+          </implicit-use-applications>
+          <risk>1</risk>
+          <application-container>ms-onenote</application-container>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10344" minver="7.1.0" name="ms-onenote-uploading" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>office-programs</subcategory>
+          <technology>browser-based</technology>
+          <description>Microsoft OneNote is a computer program for free-form information gathering and multi-user collaboration. It gathers users' notes (handwritten or typed), drawings, screen clippings and audio commentaries.  This appid covers the uploading traffic of ms-onenote.</description>
+          <appident>yes</appident>
+          <virus-ident>yes</virus-ident>
+          <spyware-ident>yes</spyware-ident>
+          <file-type-ident>yes</file-type-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <data-ident>yes</data-ident>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <parent-app>ms-onenote-base</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/Microsoft_OneNote</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications minver="5.0.0">
+            <member minver="5.0.0">ms-onenote-base</member>
+          </use-applications>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10367" minver="7.1.0" name="net-c-x" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>Net C/X, also known as RealPort - is a Digi's communication technology that provides virtual connection to serial devices over TCP/IP networks and can transmit ICS protocol's data (e.g. DNP3). The communications are established between Digi RealPort Driver installed on the server and remote Realport devices. Net C/X allows multiple connections to multiple COM ports over a single TCP/IP connection.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>yes</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic2</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Digi">
+              <link>http://ftp1.digi.com/support/utilities/93000645_a.txt</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/771</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10356" minver="7.1.0" name="opentun" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>encrypted-tunnel</subcategory>
+          <technology>client-server</technology>
+          <description>OpenTun is a free vpn that lets you browse the internet. OpenTun was built on top OpenVPN For Android. OpenTun uses both OpenVPN client TCP , UDP and SSL/TLS (Stunnel) technology. This appid covers the traffic of Opentun vpn android client.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>yes</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="Google Playstore">
+              <link>https://play.google.com/store/apps/details?id=com.artoftunnel.opentun&amp;amp;hl=en_US</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,8443</member>
+              <member>udp/1194</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>open-vpn</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>http</member>
+          </applicable-decoders>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10364" minver="7.1.0" name="powtoon" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>browser-based</technology>
+          <description>Powtoon is a web-based animation software that allows users to create animated presentations by manipulating pre-created objects, imported images, provided music and user-created voice-overs. This appid covers the browser based traffic for Powtoon.</description>
+          <appident>yes</appident>
+          <virus-ident>yes</virus-ident>
+          <file-type-ident>yes</file-type-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <file-forward>yes</file-forward>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>web20_parrent_app</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/Powtoon</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member minver="3.0.0">google-base</member>
+            <member>ssl</member>
+            <member>web-browsing</member>
+            <member minver="3.1.0">websocket</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10361" minver="7.1.0" name="projectwise" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>management</subcategory>
+          <technology>client-server</technology>
+          <description>ProjectWise is a suite of engineering project collaboration software from Bentley Systems designed for the architecture, engineering, construction (AEC) industries. This App-ID identifies the Management Server traffic on TCP 5800.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="wikipedia">
+              <link>https://en.wikipedia.org/wiki/ProjectWise</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/5800</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+          </use-applications>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10373" minver="7.1.0" name="siemens-s7-comm-plus-run-cpu" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The S7 Comm Plus protocol is a new version of the original S7 Comm protocol. It is a proprietary communications protocol developed by Siemens that runs between programmable logic controllers (PLCs) of the Siemens S7 family. This App-ID covers the Run CPU command traffic of S7 Comm Plus.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="S7-1500 plus TIA Portal">
+              <link>http://www.aainy.com/pdf/rkc_instrument_simatic_s7_1500_plus_tia_portal.pdf</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <use-applications minver="7.1.0">
+            <member minver="7.1.0">siemens-s7-comm-plus-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10368" minver="7.1.0" name="siemens-s7-comm-plus-base" ori_country="USA" ori_language="English">
+          <ottawa-name>siemens-s7-comm-plus</ottawa-name>
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The S7 Comm Plus protocol is a new version of the original S7 Comm protocol. It is a proprietary communications protocol developed by Siemens that runs between programmable logic controllers (PLCs) of the Siemens S7 family. It is used for PLC programming, exchanging data between PLCs, accessing PLC data from SCADA (supervisory control and data acquisition) systems, and for diagnostic purposes. New versions of Siemens PLCs like S7-1500 and S7-1200 are using new protocol S7 Comm Plus.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="S7-1500 plus TIA Portal">
+              <link>http://www.aainy.com/pdf/rkc_instrument_simatic_s7_1500_plus_tia_portal.pdf</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <use-applications minver="5.0.0">
+            <member minver="5.0.0">cotp</member>
+          </use-applications>
+          <tunnel-applications minver="7.1.0">
+            <member minver="7.1.0">siemens-s7-comm-plus-run-cpu</member>
+            <member minver="7.1.0">siemens-s7-comm-plus-set-time</member>
+            <member minver="7.1.0">siemens-s7-comm-plus-stop-cpu</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <application-container>siemens-s7-comm-plus</application-container>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10368" minver="7.1.0" ori_country="USA" ori_language="English" name="siemens-s7-comm-plus">
+          <ottawa-name>siemens-s7-comm-plus</ottawa-name>
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The S7 Comm Plus protocol is a new version of the original S7 Comm protocol. It is a proprietary communications protocol developed by Siemens that runs between programmable logic controllers (PLCs) of the Siemens S7 family. It is used for PLC programming, exchanging data between PLCs, accessing PLC data from SCADA (supervisory control and data acquisition) systems, and for diagnostic purposes. New versions of Siemens PLCs like S7-1500 and S7-1200 are using new protocol S7 Comm Plus.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="S7-1500 plus TIA Portal">
+              <link>http://www.aainy.com/pdf/rkc_instrument_simatic_s7_1500_plus_tia_portal.pdf</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <use-applications minver="5.0.0">
+            <member minver="5.0.0">cotp</member>
+          </use-applications>
+          <tunnel-applications minver="7.1.0">
+            <member minver="7.1.0">siemens-s7-comm-plus-run-cpu</member>
+            <member minver="7.1.0">siemens-s7-comm-plus-set-time</member>
+            <member minver="7.1.0">siemens-s7-comm-plus-stop-cpu</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <application-container>siemens-s7-comm-plus</application-container>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10377" minver="7.1.0" name="siemens-s7-comm-plus-set-time" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The S7 Comm Plus protocol is a new version of the original S7 Comm protocol. It is a proprietary communications protocol developed by Siemens that runs between programmable logic controllers (PLCs) of the Siemens S7 family. This App-ID covers the Set Time command traffic of S7 Comm Plus.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="S7-1500 plus TIA Portal">
+              <link>http://www.aainy.com/pdf/rkc_instrument_simatic_s7_1500_plus_tia_portal.pdf</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <use-applications minver="7.1.0">
+            <member minver="7.1.0">siemens-s7-comm-plus-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10374" minver="7.1.0" name="siemens-s7-comm-plus-stop-cpu" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The S7 Comm Plus protocol is a new version of the original S7 Comm protocol. It is a proprietary communications protocol developed by Siemens that runs between programmable logic controllers (PLCs) of the Siemens S7 family. This App-ID covers the Stop CPU command traffic of S7 Comm Plus.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="S7-1500 plus TIA Portal">
+              <link>http://www.aainy.com/pdf/rkc_instrument_simatic_s7_1500_plus_tia_portal.pdf</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <use-applications minver="7.1.0">
+            <member minver="7.1.0">siemens-s7-comm-plus-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10370" minver="7.1.0" name="siemens-s7-download-program" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>This App-ID covers download program function for the Siemens-S7 protocol.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>siemens-s7-base</parent-app>
+          <references>
+            <entry name="website">
+              <link>http://gmiru.com/article/s7comm/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10371" minver="7.1.0" name="siemens-s7-set-clock" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>This App-ID covers set clock function for the Siemens-S7 protocol.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>siemens-s7-base</parent-app>
+          <references>
+            <entry name="website">
+              <link>http://gmiru.com/article/s7comm/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10369" minver="7.1.0" name="siemens-s7-upload-program" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>This App-ID covers upload program function for the Siemens-S7 protocol.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>siemens-s7-base</parent-app>
+          <references>
+            <entry name="website">
+              <link>http://gmiru.com/article/s7comm/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10372" minver="7.1.0" name="siemens-s7-warm-restart" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>This App-ID covers warm restart function for the Siemens-S7 protocol.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>siemens-s7-base</parent-app>
+          <references>
+            <entry name="website">
+              <link>http://gmiru.com/article/s7comm/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10362" minver="7.1.0" name="spectrum-tv" ori_country="USA" ori_language="English">
+          <category>media</category>
+          <subcategory>photo-video</subcategory>
+          <technology>browser-based</technology>
+          <description>Spectrum TV Stream is an American over-the-top internet television service owned by Charter Communications.  It offers a selection of major cable channels and on-demand content that can be streamed through smart TVs, digital media players, and mobile apps.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>yes</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <parent-app>http-video</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="spectrum">
+              <link>https://watch.spectrum.net/</link>
+            </entry>
+            <entry name="wikipedia">
+              <link>https://en.wikipedia.org/wiki/Spectrum_TV_Stream</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10380" minver="7.1.0" name="veeam-agent-windows" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>management</subcategory>
+          <technology>client-server</technology>
+          <description>Veeam Agent for Microsoft Windows is a data protection and disaster recovery solution for physical and virtual machines. The solution can be installed on Windows-based workstations, physical servers and virtual machines. This App-ID covers the traffic of Veeam Agent for Microsoft Windows operating in the managed mode for communication with the Veeam Backup server on TCP port 10005.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Veeam Agent for Microsoft Windows">
+              <link>https://helpcenter.veeam.com/docs/agentforwindows/userguide/overview.html?ver=40</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/10005</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10359" minver="7.1.0" name="veeam-cloud-connect" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>management</subcategory>
+          <technology>client-server</technology>
+          <description>Veeam Cloud Connect provides integrated and secured backup to the cloud through Veeam-powered service providers. This App-ID cover the traffic to Cloud gateway on TCP/6180.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <references>
+            <entry name="veeam">
+              <link>https://www.veeam.com/cloud-connect.html</link>
+            </entry>
+            <entry name="wikipedia">
+              <link>https://en.wikipedia.org/wiki/Veeam_Backup_%26_Replication</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/6180</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10378" minver="7.1.0" name="wyze" ori_country="USA" ori_language="English">
+          <category>general-internet</category>
+          <subcategory>internet-utility</subcategory>
+          <technology>client-server</technology>
+          <description>Wyze is a U.S. company based in Seattle, Washington, U.S. that specializes in inexpensive smart home products and wireless cameras. The appid covers the traffic from Wyze camera to cloud and mobile traffic for Wyze cam</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/Wyze_Labs</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443,8443,8605,8615,8883</member>
+              <member>udp/10001</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10357" minver="7.1.0" name="zscaler-internet-access" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>proxy</subcategory>
+          <technology>browser-based</technology>
+          <description>Zscaler Internet Access (ZIA) is a secure internet and web gateway delivered as a service from the cloud, connects users to the internet and SaaS applications via proxy. This App-ID covers the auto-configuration and connecting traffic of ZIA.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <data-ident>yes</data-ident>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <parent-app>web20_parrent_app</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Zscaler Internet Access">
+              <link>https://www.zscaler.com/products/zscaler-internet-access</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10396" minver="7.1.0" name="abb-rp570" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The RP 570 protocol is a high-level communication protocol used between the front-end computer (FE) and the substation to be controlled. The protocol is based on the low-level protocol recommended by IEC TC57, format class 1.2. The designation RP 570 is an abbreviation of "RTU Protocol based on IEC 57 part 5-1 (present IEC 870) version 0 or 1.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="ABB">
+              <link>https://library.e.abb.com/public/9a5c1896695487e6c2256a7200361578/REC501RP570_EN_A.pdf</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/dynamic</member>
+              <member>udp/dynamic</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="2166" minver="3.0.0" name="control-m" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>management</subcategory>
+          <technology>client-server</technology>
+          <description>Control-M is workload automation (traditionally called batch scheduling) software obtained by BMC Software via its 1999 acquisition of Israel's New Dimension Software. It was originally developed for IBM mainframe computers (OS/MVS operating system), but has since expanded and is also available for distributed computing platforms including Unix, Windows, Linux and OpenVMS environments. This AppID covers the traffic between BMC control-m server and agent.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/BMC_Control-M</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/7006,7005</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10391" minver="7.1.0" name="emerson-delta-v" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The DeltaV distributed control system (DCS) is an automation system that simplifies operational complexity. The DeltaV protocol is used in the Emerson DeltaV system.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Emerson">
+              <link>https://www.emerson.com/en-us/automation/deltav</link>
+            </entry>
+            <entry name="PLC4x">
+              <link>https://plc4x.apache.org/protocols/delta-v/index.html</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>udp/18507</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10385" minver="7.1.0" name="goanywhere" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>management</subcategory>
+          <technology>browser-based</technology>
+          <description>GoAnywhere MFT is a managed file transfer solution for the exchange of data between systems, employees, customers and trading partners. It provides a single point of control with security settings, detailed audit trails and reports.  GoAnywhere Gateway provides an additional layer of network security by masquerading server identities when exchanging data with trading partners. This App-ID covers the traffic to MFT admin and user web console.</description>
+          <appident>yes</appident>
+          <virus-ident>yes</virus-ident>
+          <spyware-ident>yes</spyware-ident>
+          <file-type-ident>yes</file-type-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>yes</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <file-forward>yes</file-forward>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>web20_parrent_app</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="goanywhere">
+              <link>https://www.goanywhere.com/</link>
+            </entry>
+            <entry name="wikepedia">
+              <link>https://en.wikipedia.org/wiki/Linoma_Software</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443,8000,8001,9000,9001</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <risk>3</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10389" minver="7.1.0" name="irig-106" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>infrastructure</subcategory>
+          <technology>network-protocol</technology>
+          <description>IRIG 106 is a comprehensive telemetry standard to ensure interoperability in aeronautical telemetry application at RCC member ranges. IRIG 106 is developed and maintained by the Telemetry Group of the Range Commanders Council.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="irig-106">
+              <link>https://www.irig106.org/</link>
+            </entry>
+            <entry name="irig-106-wiki">
+              <link>https://www.irig106.org/wiki/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>udp/dynamic</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10383" minver="7.1.0" name="moodle" ori_country="USA" ori_language="English">
+          <category>collaboration</category>
+          <subcategory>social-business</subcategory>
+          <technology>browser-based</technology>
+          <description>Moodle is a free and open-source learning management system (LMS).  It is used for blended learning, distance education, flipped classroom and other e-learning projects in schools, universities, workplaces and other sectors.</description>
+          <appident>yes</appident>
+          <virus-ident>yes</virus-ident>
+          <spyware-ident>yes</spyware-ident>
+          <file-type-ident>yes</file-type-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>yes</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <data-ident>yes</data-ident>
+          <cachable>no</cachable>
+          <file-forward>yes</file-forward>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>web20_parrent_app</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="wikipedia">
+              <link>https://en.wikipedia.org/wiki/Moodle</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <risk>3</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10387" minver="7.1.0" name="ngap" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>ip-protocol</subcategory>
+          <technology>client-server</technology>
+          <description>NGAP identifies the radio network layer signalling protocol for the N2 interface between 5G RAN and Access and Mobility function (AMF). NGAP utilizes SCTP in the transport layer and is defined in the 3GPP TS 38.413. It provides functions like mobility management, session management, paging, signaling transport etc. This appid covers ngap protocol traffic.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="3gpp">
+              <link>https://www.3gpp.org/DynaReport/38410.htm</link>
+            </entry>
+          </references>
+          <use-applications>
+            <member>sctp</member>
+          </use-applications>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10384" minver="7.1.0" name="nutanix" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>management</subcategory>
+          <technology>browser-based</technology>
+          <description>Nutanix provides  hyper-converged infrastructure (HCI) solution for for enterprise cloud. This App-ID covers the traffic of Nutanix Prism  Enterprise Cloud Management Console.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>web20_parrent_app</parent-app>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="wikepedia">
+              <link>https://en.wikipedia.org/wiki/Nutanix</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10379" minver="7.1.0" name="tencent-meeting" ori_country="USA" ori_language="English">
+          <category>collaboration</category>
+          <subcategory>internet-conferencing</subcategory>
+          <technology>browser-based</technology>
+          <description>Tencent Meeting is a communications software that combines video conferencing, online meetings, chat, and mobile collaboration. This appid covers the browser traffic for video conference and online meeting.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <breaks-decryption>yes</breaks-decryption>
+          <new-appid>yes</new-appid>
+          <parent-app>jabber</parent-app>
+          <tag minver="9.1.0">
+            <member>[Enterprise VoIP]</member>
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Tencent meeting">
+              <link>https://meeting.tencent.com/sg/en/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,8081</member>
+              <member>udp/8000</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>jabber</member>
+            <member>qq-base</member>
+            <member>ssl</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10382" minver="7.1.0" name="vmware-blast-extreme" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>remote-access</subcategory>
+          <technology>network-protocol</technology>
+          <description>VMware Blast Extreme is a remote display protocol designed to deliver graphics-intensive virtual workloads using the H. 264 advanced video compression standard. This appid covers traffic when browser connects to view agent using direct connection instead of tunnelled connection on standard port 22443.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="VMware">
+              <link>https://docs.vmware.com/en/VMware-Horizon-7/7.2/com.vmware.horizon-view.planning.doc/GUID-F64BAD49-78A0-44FE-97EA-76A56FD022D6.html</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/22443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10386" minver="7.1.0" name="whereby" ori_country="USA" ori_language="English">
+          <category>collaboration</category>
+          <subcategory>internet-conferencing</subcategory>
+          <technology>browser-based</technology>
+          <description>Whereby is used for easy video meetings with no login or downloads. Video conferencing with screen sharing, recording. This appid covers the browser and mobile traffic for meetings.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <parent-app>web20_parrent_app</parent-app>
+          <tag minver="9.1.0">
+            <member>[Enterprise VoIP]</member>
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Whereby">
+              <link>https://whereby.com/information/about-us/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+            <member minver="3.1.0">websocket</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10413" minver="7.1.0" name="aeroadmin" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>remote-access</subcategory>
+          <technology>client-server</technology>
+          <description>AeroAdmin is a Remote Desktop software. It is ready for use right after downloading and connects computers in different local area networks, behind NAT. This App-ID covers authentication and connection session of AeroAdmin.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <references>
+            <entry name="AeroAdmin">
+              <link>https://www.aeroadmin.com/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,8080,5665</member>
+            </port>
+          </default>
+          <risk>2</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10444" minver="7.1.0" name="bbraun-dosetrac" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>B. Braun is a German medical and pharmaceutical device company in infusion therapy and pain management, develops, manufactures, and markets innovative medical products and services to the healthcare industry. This App-ID covers traffic for the DoseTrac infusion management software.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="B. Braun Medical Inc">
+              <link>https://www.bbraunusa.com/en/products/b/dosetrac-infusionmanagementsoftwareinfusionpumpsoftware.html</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/4000,4080</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10402" minver="7.1.0" name="bbraun-space" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>browser-based</technology>
+          <description>B. Braun is a German medical and pharmaceutical device company in infusion therapy and pain management, develops, manufactures, and markets innovative medical products and services to the healthcare industry. This App-ID covers traffic for the Space Infusion Pump from B.Braun Medical Inc to its management server over the network.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>medical</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="B. Braun Medical Inc">
+              <link>https://www.bbraunusa.com/en.html</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>web-browsing</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>http</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>web20_parrent_app</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10446" minver="8.1.0" name="bigbluebutton" ori_country="USA" ori_language="English">
+          <category>collaboration</category>
+          <subcategory>internet-conferencing</subcategory>
+          <technology>browser-based</technology>
+          <description>BigBlueButton is an open source web conferencing system for online learning. BigBlueButton is an HTML5-based web application that runs in web browsers. This App-ID covers traffic of BigBlueButton meeting.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Big Blue Button">
+              <link>https://bigbluebutton.org/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>stun</member>
+            <member>web-browsing</member>
+            <member minver="3.1.0">websocket</member>
+          </use-applications>
+          <implicit-use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </implicit-use-applications>
+          <risk>1</risk>
+          <parent-app>github-downloading</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10421" minver="7.1.0" name="cerner-device-connectivity" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID is for Cerner and compatible Device Connectivity solutions that enable interoperability between medical devices, healthcare applications and the EHR. This App helps Automate the collection of vital signs and other medical device results.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <references>
+            <entry name="Cerner">
+              <link>https://www.cerner.com/solutions/device-connectivity</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/dynamic</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10231" minver="7.1.0" name="cip-ethernet-ip-disable-io" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects Disable I/O command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-read-mod-write</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10232" minver="7.1.0" name="cip-ethernet-ip-disable-sfc" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects disable SFC command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-read-mod-write</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10233" minver="7.1.0" name="cip-ethernet-ip-enable-io" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects enable I/O command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-write-tag</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10234" minver="7.1.0" name="cip-ethernet-ip-enable-sfc" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects Enable SFC command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-write-tag</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10228" minver="7.1.0" name="cip-ethernet-ip-read-mod-write" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects read modify write command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <tunnel-applications minver="3.1.0">
+            <member minver="7.1.0">cip-ethernet-ip-disable-io</member>
+            <member minver="7.1.0">cip-ethernet-ip-disable-sfc</member>
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10224" minver="7.1.0" name="cip-ethernet-ip-read-tag" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects read tag command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10225" minver="7.1.0" name="cip-ethernet-ip-read-tag-frag" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects read tag fragmented command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10223" minver="7.1.0" name="cip-ethernet-ip-run" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects run command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>ctd-dummy</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10229" minver="7.1.0" name="cip-ethernet-ip-stop" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects stop command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>ctd-dummy</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10230" minver="7.1.0" name="cip-ethernet-ip-test-mode" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects test mode command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>ctd-dummy</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10226" minver="7.1.0" name="cip-ethernet-ip-write-tag" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects write tag command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <tunnel-applications minver="3.1.0">
+            <member minver="7.1.0">cip-ethernet-ip-enable-io</member>
+            <member minver="7.1.0">cip-ethernet-ip-enable-sfc</member>
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10227" minver="7.1.0" name="cip-ethernet-ip-write-tag-frag" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID provides operate functional control over EtherNet/IP. EtherNet/IP was introduced in 2001 and today is the most developed, proven and complete industrial Ethernet network solution available for manufacturing automation. EtherNet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. CIP encompasses a comprehensive suite of messages and services for a variety of manufacturing automation applications, including control, safety, synchronization, motion, configuration and information. As a truly media-independent protocol that is supported by hundreds of vendors around the world, CIP provides users with a unified communication architecture throughout the manufacturing enterprise. This protocol is typically used in Supervisory Control and Data Acquisition (SCADA) and Industrial Control System (ICS) applications. This App-ID detects write tag fragmented command for CIP.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cip-ethernet-ip</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="ODVA">
+              <link>http://www.odva.org/Home/ODVATECHNOLOGIES/EtherNetIP/tabid/67/lng/en-US/Default.aspx</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/EtherNet/IP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/44818</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">cip-ethernet-ip-base</member>
+          </use-applications>
+          <tunnel-applications minver="3.1.0">
+            <member minver="3.1.0">ctd-dummy</member>
+          </tunnel-applications>
+          <applicable-decoders>
+            <member>cip-ethernet-ip</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>cip-ethernet-ip-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10433" minver="7.1.0" name="cohesity" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>management</subcategory>
+          <technology>client-server</technology>
+          <description>Cohesity provides a web-scale, software-defined data management platform to allow companies protect, control and extract value from their data. This App-ID covers Cohesity storage and backup traffic.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Cohesity">
+              <link>https://www.cohesity.com/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/11111</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10416" minver="8.1.0" name="dingtalk-file-transfer" ori_country="USA" ori_language="English">
+          <category>collaboration</category>
+          <subcategory>instant-messaging</subcategory>
+          <technology>client-server</technology>
+          <description>This App-ID identifies the file-transfer functionality of dingtalk. DingTalk is an enterprise communication and collaboration platform developed by Alibaba Group.</description>
+          <appident>yes</appident>
+          <virus-ident>yes</virus-ident>
+          <file-type-ident>yes</file-type-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <data-ident>yes</data-ident>
+          <cachable>no</cachable>
+          <file-forward>yes</file-forward>
+          <can-disable>yes</can-disable>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Dingtalk">
+              <link>https://www.dingtalk.com</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/DingTalk</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,80</member>
+            </port>
+          </default>
+          <use-applications>
+            <member minver="5.0.0">dingtalk-base</member>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <implicit-use-applications>
+            <member>web-browsing</member>
+          </implicit-use-applications>
+          <risk>1</risk>
+          <parent-app>dingtalk-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="3020" minver="5.0.0" name="dingtalk-base" ori_country="USA" ori_language="English">
+          <ottawa-name>dingtalk</ottawa-name>
+          <category>collaboration</category>
+          <subcategory>instant-messaging</subcategory>
+          <technology>client-server</technology>
+          <description>DingTalk is an enterprise communication and collaboration platform developed by Alibaba Group. It is one of the largest professional communication and management apps in China. This app-id covers traffic from the Dinktalk client.</description>
+          <appident>yes</appident>
+          <spyware-ident>yes</spyware-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Dingtalk">
+              <link>https://www.dingtalk.com</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/DingTalk</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+          </use-applications>
+          <tunnel-applications minver="8.1.0">
+            <member minver="8.1.0">dingtalk-file-transfer</member>
+          </tunnel-applications>
+          <implicit-use-applications>
+            <member>ssl</member>
+          </implicit-use-applications>
+          <applicable-decoders>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <application-container>dingtalk</application-container>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10441" minver="8.1.0" name="g-net-meetnow" ori_country="USA" ori_language="English">
+          <category>collaboration</category>
+          <subcategory>internet-conferencing</subcategory>
+          <technology>browser-based</technology>
+          <description>The G-Net MeetNow APP has HD video, audio, and it can help users communicate and collaborate across the platform, network and terminals. This App-ID covers the mobile and desktop traffic for G-net Meetnow app.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Enterprise VoIP]</member>
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="G-net-meetnow">
+              <link>https://meetnow.quanshi.com/onemeeting/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,80</member>
+              <member>udp/80</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>stun</member>
+            <member>web-browsing</member>
+            <member minver="3.1.0">websocket</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>web20_parrent_app</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10422" minver="8.1.0" name="jandi" ori_country="USA" ori_language="English">
+          <category>collaboration</category>
+          <subcategory>instant-messaging</subcategory>
+          <technology>browser-based</technology>
+          <description>JANDI is a business messaging app with built-in workplace productivity features. This App-ID covers desktop App and web traffic for JANDI.</description>
+          <appident>yes</appident>
+          <virus-ident>yes</virus-ident>
+          <spyware-ident>yes</spyware-ident>
+          <file-type-ident>yes</file-type-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <data-ident>yes</data-ident>
+          <cachable>no</cachable>
+          <file-forward>yes</file-forward>
+          <can-disable>yes</can-disable>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="JANDI">
+              <link>https://www.jandi.com/landing/en</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member minver="3.1.0">amazon-aws-console</member>
+            <member>ssl</member>
+            <member>web-browsing</member>
+            <member minver="3.1.0">websocket</member>
+          </use-applications>
+          <implicit-use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </implicit-use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>2</risk>
+          <parent-app>amazon-aws-console</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10426" minver="7.1.0" name="litemanager" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>remote-access</subcategory>
+          <technology>client-server</technology>
+          <description>LiteManager is a program for remote administration of Windows-based computers. The program allows remote access from LiteManager Viewer to LiteManager Server. This App-ID covers Direct IP connection and ID/NoIP connection.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <references>
+            <entry name="LiteManager">
+              <link>http://litemanager.com/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/5650,5651,25651</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10411" minver="7.1.0" name="masimo" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>Masimo is a global medical technology company that develops and manufactures patient monitoring technologies. This App-ID is for detecting Masimo devices, which communicate with their server over the network.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Masimo">
+              <link>https://www.masimo.com/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/dynamic</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10436" minver="8.1.0" name="mqtt-connect" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>client-server</technology>
+          <description>MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. This App-ID detect MQTT connect request.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>yes</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>yes</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="MQTT">
+              <link>http://mqtt.org/</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/MQ_Telemetry_Transport</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/1883,1884,8883</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">mqtt-base</member>
+          </use-applications>
+          <risk>2</risk>
+          <parent-app>mqtt-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="1102" minver="3.1.0" name="mqtt-base" ori_country="USA" ori_language="English">
+          <ottawa-name>mqtt</ottawa-name>
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>client-server</technology>
+          <description>MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. This App-ID detects MQTT protocol traffic.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>yes</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>yes</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/MQ_Telemetry_Transport</link>
+            </entry>
+            <entry name="MQTT">
+              <link>http://mqtt.org</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/1883,8883,8884</member>
+            </port>
+          </default>
+          <tunnel-applications minver="3.0.0">
+            <member minver="3.0.0">laiwang-base</member>
+            <member minver="8.1.0">mqtt-connect</member>
+            <member minver="8.1.0">mqtt-disconnect</member>
+            <member minver="8.1.0">mqtt-publish-message</member>
+            <member minver="8.1.0">mqtt-subscribe</member>
+            <member minver="8.1.0">mqtt-unsubscribe</member>
+          </tunnel-applications>
+          <risk>2</risk>
+          <application-container>mqtt</application-container>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10438" minver="8.1.0" name="mqtt-disconnect" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>client-server</technology>
+          <description>MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. This App-ID detect MQTT disconnect request.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>yes</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="MQTT">
+              <link>http://mqtt.org/</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/MQ_Telemetry_Transport</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/1883,1884,8883</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">mqtt-base</member>
+          </use-applications>
+          <risk>2</risk>
+          <parent-app>mqtt-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10437" minver="8.1.0" name="mqtt-publish-message" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>client-server</technology>
+          <description>MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. This App-ID detect MATT publish message request.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>yes</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="MQTT">
+              <link>http://mqtt.org/</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/MQ_Telemetry_Transport</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/1883,1884,8883</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">mqtt-base</member>
+          </use-applications>
+          <risk>2</risk>
+          <parent-app>mqtt-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10439" minver="8.1.0" name="mqtt-subscribe" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>client-server</technology>
+          <description>MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. This App-ID detect MQTT subscribe request.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>yes</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="MQTT">
+              <link>http://mqtt.org/</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/MQ_Telemetry_Transport</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/1883,1884,8883</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">mqtt-base</member>
+          </use-applications>
+          <risk>2</risk>
+          <parent-app>mqtt-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10440" minver="8.1.0" name="mqtt-unsubscribe" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>client-server</technology>
+          <description>MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium. This App-ID detect MQTT unsubscribe request.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>yes</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="MQTT">
+              <link>http://mqtt.org/</link>
+            </entry>
+            <entry name="Wikipedia">
+              <link>http://en.wikipedia.org/wiki/MQ_Telemetry_Transport</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/1883,1884,8883</member>
+            </port>
+          </default>
+          <use-applications minver="3.1.0">
+            <member minver="3.1.0">mqtt-base</member>
+          </use-applications>
+          <risk>2</risk>
+          <parent-app>mqtt-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10412" minver="7.1.0" name="omnicell-dispensers" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>Omnicell provides pharmacy and medication management solutions. Their products like Automated Dispensing communicates with their serverCabinets/management software over the network. This App-ID covers omnicell medication dispensers.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <references>
+            <entry name="Omnicell">
+              <link>https://www.omnicell.com/products/point-of-care/omnicell-xt-automated-dispensing-cabinets#:~:text=Managing%20medications%20is%20a%20critical,the%20overall%20patient%20medication%20experience</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/1801</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10427" minver="7.1.0" name="parallels-access" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>remote-access</subcategory>
+          <technology>client-server</technology>
+          <description>Parallels access provides simple and reliable remote access to computer from anywhere. This App-ID covers traffic of parallels access client and parallels access agent.</description>
+          <appident>yes</appident>
+          <virus-ident>yes</virus-ident>
+          <file-type-ident>yes</file-type-ident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <data-ident>yes</data-ident>
+          <cachable>no</cachable>
+          <file-forward>yes</file-forward>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Parallels">
+              <link>https://www.parallels.com/products/access/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,80</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>stun</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>2</risk>
+          <parent-app>web20_parrent_app</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10419" minver="7.1.0" name="pfcp" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>infrastructure</subcategory>
+          <technology>network-protocol</technology>
+          <description>PFCP protocol is used for securing access over N4 interface between User Plane function (UPF) and session management function (SMF) in 5G network. This protocol also runs over Sx interfaces in Control and User plane seperation (CUPS) architecture in 4G network. PFCP utilizes UDP in the transport layer and is defined in the 3GPP TS 29.244. It is used to configure packet detection rules, forwarding action, QoS enforcement etc for every PDU session. This App-ID covers traffic for PFCP protocol.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/PFCP</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>udp/8805</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10418" minver="7.1.0" name="philips-ecg" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>Philips ECG Machine communicate with Philips IntelliSpace ECG or Legacy TraceMastervue ECG Management System to obtain work orders and upload ECG reports for central storage. This App-ID covers traffic from Philips ECG machines.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>medical</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="Philips">
+              <link>https://www.usa.philips.com/healthcare/solutions/diagnostic-ecg/diagnostic-ecg</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/80,443</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10435" minver="7.1.0" name="philips-pm" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>Philips Patient Monitoring system is an integrated solution used to capture virtually gap-free patient data and feed it directly to Electronic Medical Record System (EMR). This App-ID detects the traffic between the Philips monitors and Philips central monitoring system.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>medical</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Philips">
+              <link>https://www.usa.philips.com/healthcare/solutions/patient-monitoring</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>udp/1732,24000,24005,24006,24008,24010,55555,55557</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10443" minver="7.1.0" name="qualys-agent" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>general-business</subcategory>
+          <technology>client-server</technology>
+          <description>Qualys Agent architecture simplifies asset discovery and tracking as well as security and compliance monitoring in highly dynamic cloud environment like Amazon EC2 and Microsoft Azure. It provides the ability to embed the agent into the master images of their cloud servers. This App-ID covers Cloud Agent traffic.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="qualys agent">
+              <link>https://www.qualys.com/cloud-agent/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+          </use-applications>
+          <implicit-use-applications>
+            <member>ssl</member>
+          </implicit-use-applications>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10445" minver="7.1.0" name="remotix" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>remote-access</subcategory>
+          <technology>client-server</technology>
+          <description>Remotix is all-in-one application for remote connections. It stores your connections and credentials, displays remote machine screen and allows for file management. This App-ID covers remote access traffic between remotix agent and remotix-desktop and mobile application.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <breaks-decryption>yes</breaks-decryption>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Remotix">
+              <link>https://remotix.com/</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,80</member>
+              <member>udp/dynamic</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+            <member minver="3.1.0">websocket</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>http</member>
+            <member>ssl</member>
+          </applicable-decoders>
+          <risk>2</risk>
+          <parent-app>web20_parrent_app</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10423" minver="7.1.0" name="retrospect-backup" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>storage-backup</subcategory>
+          <technology>client-server</technology>
+          <description>Retrospect is a family of software applications that back up computers running the macOS, Microsoft Windows, and Linux. It uses a client-server backup model. This App-ID covers the backup traffic of retrospect client application to dropbox, amazon s3 and backblaze b2 cloud storage.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>yes</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <data-ident>yes</data-ident>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="Wikipedia">
+              <link>https://en.wikipedia.org/wiki/Retrospect_(software)</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,80</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <implicit-use-applications>
+            <member>web-browsing</member>
+          </implicit-use-applications>
+          <applicable-decoders>
+            <member>http</member>
+          </applicable-decoders>
+          <risk>2</risk>
+          <parent-app>web20_parrent_app</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10425" minver="7.1.0" name="siemens-s7-comm-plus-download" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The S7 Comm Plus protocol is a new version of the original S7 Comm protocol. It is a proprietary communications protocol developed by Siemens that runs between programmable logic controllers (PLCs) of the Siemens S7 family. This App-ID covers the downloading traffic of S7 Comm Plus.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="S7-1500 plus TIA Portal">
+              <link>http://www.aainy.com/pdf/rkc_instrument_simatic_s7_1500_plus_tia_portal.pdf</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <use-applications minver="7.1.0">
+            <member minver="7.1.0">siemens-s7-comm-plus-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>siemens-s7-comm-plus-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10424" minver="7.1.0" name="siemens-s7-comm-plus-upload" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>ics-protocols</subcategory>
+          <technology>network-protocol</technology>
+          <description>The S7 Comm Plus protocol is a new version of the original S7 Comm protocol. It is a proprietary communications protocol developed by Siemens that runs between programmable logic controllers (PLCs) of the Siemens S7 family. This App-ID covers the uploading traffic of S7 Comm Plus.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>cotp</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <can-disable>yes</can-disable>
+          <references>
+            <entry name="S7-1500 plus TIA Portal">
+              <link>http://www.aainy.com/pdf/rkc_instrument_simatic_s7_1500_plus_tia_portal.pdf</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/102</member>
+            </port>
+          </default>
+          <use-applications minver="7.1.0">
+            <member minver="7.1.0">siemens-s7-comm-plus-base</member>
+          </use-applications>
+          <applicable-decoders>
+            <member>cotp</member>
+          </applicable-decoders>
+          <risk>1</risk>
+          <parent-app>siemens-s7-comm-plus-base</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10414" minver="7.1.0" name="smiths-pharmguard" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>Smiths Medical infusion pumps communicate with Smiths Medical PharmGuard server over the network. The server runs PharmGuard&amp;#xAE; Server Infusion Management Software that remotely manages the infusion pumps. This App-ID covers Smiths medical pharmguard server traffic on tcp port 1588.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>generic2</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <references>
+            <entry name="Smiths-medical">
+              <link>https://www.smiths-medical.com/products/infusion/infusion-software/pharmguard-medication-safety-software</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/1588</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10442" minver="7.1.0" name="sunlogin-remote-control" ori_country="USA" ori_language="English">
+          <category>networking</category>
+          <subcategory>remote-access</subcategory>
+          <technology>client-server</technology>
+          <description>Sunflower remote control software is a software that supports remote control between multiple systems and multiple devices such as Android, iOS, Windows. This App-ID covers the remote access traffic from sunlogin client.</description>
+          <appident>yes</appident>
+          <vulnerability-ident>yes</vulnerability-ident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>yes</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <breaks-decryption>yes</breaks-decryption>
+          <new-appid>yes</new-appid>
+          <tag minver="9.1.0">
+            <member>[Web App]</member>
+          </tag>
+          <references>
+            <entry name="sunlogin">
+              <link>https://sunlogin.oray.com/en/embed/software.html</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/443,80</member>
+              <member>udp/dynamic</member>
+            </port>
+          </default>
+          <use-applications>
+            <member>ssl</member>
+            <member>web-browsing</member>
+          </use-applications>
+          <risk>1</risk>
+          <parent-app>web20_parrent_app</parent-app>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10434" minver="7.1.0" name="welch-allyn-device-discovery" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>Welch allyn is manufacturer of medical diagnostic devices and patient monitoring systems. This App-ID covers the traffic for the discovery of welch allyn devices on the network.</description>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <cachable>no</cachable>
+          <new-appid>yes</new-appid>
+          <references>
+            <entry name="Welch Allyn">
+              <link>https://www.welchallyn.com/en/products/categories/patient-monitoring/vital-signs-devices.html</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>udp/7711,7712</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>
+        <entry id="10420" minver="7.1.0" name="welch-allyn-vsm" ori_country="USA" ori_language="English">
+          <category>business-systems</category>
+          <subcategory>medical</subcategory>
+          <technology>client-server</technology>
+          <description>Welch Allyn Vital Signs Monitor provides healthcare providers access to patient vitals data. The monitors communicate with a remote server over the network. This App-ID covers network traffic for Welch Allyn Vital Signs Monitor device.</description>
+          <alg>yes</alg>
+          <appident>yes</appident>
+          <evasive-behavior>no</evasive-behavior>
+          <consume-big-bandwidth>no</consume-big-bandwidth>
+          <used-by-malware>no</used-by-malware>
+          <able-to-transfer-file>no</able-to-transfer-file>
+          <has-known-vulnerability>no</has-known-vulnerability>
+          <tunnel-other-application>no</tunnel-other-application>
+          <prone-to-misuse>no</prone-to-misuse>
+          <pervasive-use>no</pervasive-use>
+          <per-direction-regex>no</per-direction-regex>
+          <decode>medical</decode>
+          <deny-action>drop-reset</deny-action>
+          <cachable>no</cachable>
+          <references>
+            <entry name="Welch Allyn">
+              <link>https://www.welchallyn.com/en/products/categories/patient-monitoring/vital-signs-devices.html</link>
+            </entry>
+          </references>
+          <default>
+            <port>
+              <member>tcp/281,283</member>
+            </port>
+          </default>
+          <risk>1</risk>
+          <preview>yes</preview>
+        </entry>

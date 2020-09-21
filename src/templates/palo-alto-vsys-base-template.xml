@@ -1,0 +1,69 @@
+
+<entry name="vsys1">
+  <application/>
+  <application-group/>
+  <zone>
+  {% block zoneslist %}
+  {% endblock %}
+  </zone>
+  <service>
+  {% block serviceslist %}
+  {% endblock %}
+  </service>
+  <service-group/>
+  <schedule/>
+  <rulebase>
+    <security>
+      <rules>
+        {% block policysecurityruleslist %}
+        {% endblock %}
+      </rules>
+    </security>
+    <nat>
+      <rules>
+        {% block natruleslist %}
+        {% endblock %}
+      </rules>
+    </nat>
+    <pbf>
+      <rules/>
+    </pbf>
+    <default-security-rules>
+      <rules>
+        <entry name="intrazone-default"> <!--uuid="851118ae-328d-4075-bc46-baa2aef2d6b9"-->
+          <action>allow</action>
+          <log-start>yes</log-start>
+          <log-end>yes</log-end>
+        </entry>
+      </rules>
+    </default-security-rules>
+  </rulebase>
+  <import>
+    <network>
+      <interface>
+        {% block interfaces %}
+        {% endblock %}
+      </interface>
+    </network>
+  </import>
+  <address>
+  {% block addresseslist %}
+  {% endblock %}
+  </address>
+  <profiles>
+    <url-filtering>
+      <entry name="XFF-Logging">
+        <credential-enforcement>
+          <mode>
+            <disabled/>
+          </mode>
+          <log-severity>medium</log-severity>
+        </credential-enforcement>
+        <log-http-hdr-xff>yes</log-http-hdr-xff>
+      </entry>
+    </url-filtering>
+  </profiles>
+  <user-id-collector>
+    <setting/>
+  </user-id-collector>
+</entry>

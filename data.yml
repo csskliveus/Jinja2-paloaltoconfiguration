@@ -1,0 +1,16 @@
+users:
+    - name: admin
+      superuser: "yes"
+      phash: "WERWesdfsdf"
+    - name: sysman
+      superuser: "yes"
+      phash: "WERssdfsdf"
+deviceconfig:
+  dhcpclient:
+    sendhostname: "yes"
+    sendclientid: "no"
+    acceptdhcphostname: "no"
+    acceptdhcpdomain: "no"
+  hostname: "PA-VM"
+  serververification: "yes"
+  instrkey: ""
