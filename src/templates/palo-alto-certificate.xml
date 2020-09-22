@@ -2,12 +2,12 @@
         <subject-hash>d16c0e89</subject-hash>
         <issuer-hash>d16c0e89</issuer-hash>
         <not-valid-before>Apr 11 03:12:15 2020 GMT</not-valid-before>
-        <issuer>/C=US/ST=WA/L=Bellevue/O=VCA/OU=IT/CN=emailAddress=@vca.com</issuer>
+        <issuer>/C=US/ST=WA/L=Bellevue/O=VCA/OU=IT/CN=emailAddress=@test.com</issuer>
         <not-valid-after>Apr 11 03:12:15 2021 GMT</not-valid-after>
-        <common-name>apimstg.vca-nonprdn-westus2.private</common-name>
+        <common-name>apimstg-nonprdn-westus2.private</common-name>
         <expiry-epoch>1618110735</expiry-epoch>
         <ca>yes</ca>
-        <subject>/C=US/ST=WA/L=Bellevue/O=VCA/OU=IT/CN=apimstg.vca-nonprdn-westus2.private/emailAddress=gl-cert@vca.com</subject>
+        <subject>/C=US/ST=WA/L=Bellevue/O=VCA/OU=IT/CN=apimstg-nonprdn-westus2.private/emailAddress=gl-cert</subject>
         <public-key>-----BEGIN CERTIFICATE-----
 
 -----END CERTIFICATE-----
