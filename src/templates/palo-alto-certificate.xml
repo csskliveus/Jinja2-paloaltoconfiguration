@@ -2,35 +2,17 @@
         <subject-hash>d16c0e89</subject-hash>
         <issuer-hash>d16c0e89</issuer-hash>
         <not-valid-before>Apr 11 03:12:15 2020 GMT</not-valid-before>
-        <issuer>/C=US/ST=WA/L=Bellevue/O=VCA/OU=IT/CN=apimstg.vca-nonprdn-westus2.private/emailAddress=gl-cert@vca.com</issuer>
         <not-valid-after>Apr 11 03:12:15 2021 GMT</not-valid-after>
-        <common-name>apimstg.vca-nonprdn-westus2.private</common-name>
+        <common-name>apimstg-nonprdn-westus2.private</common-name>
         <expiry-epoch>1618110735</expiry-epoch>
         <ca>yes</ca>
-        <subject>/C=US/ST=WA/L=Bellevue/O=VCA/OU=IT/CN=apimstg.vca-nonprdn-westus2.private/emailAddress=gl-cert@vca.com</subject>
+        <subject>/C=US/ST=WA/L=Bellevue/O=VCA/OU=IT/CN=apimstg-nonprdn-westus2.private/emailAddress=gl-cert</subject>
         <public-key>-----BEGIN CERTIFICATE-----
-MIIDpDCCAowCCQCOHnoPyTnFTDANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMC
-VVMxCzAJBgNVBAgMAldBMREwDwYDVQQHDAhCZWxsZXZ1ZTEMMAoGA1UECgwDVkNB
-MQswCQYDVQQLDAJJVDEpMCcGA1UEAwwgYXBpbS52b3lhZ2VyLW5vbnByb2Qtd2Vz
-dHVzMi5pbnQxHjAcBgkqhkiG9w0BCQEWD2dsLWNlcnRAdmNhLmNvbTAeFw0yMDA0
-MTEwMzEyMTVaFw0yMTA0MTEwMzEyMTVaMIGTMQswCQYDVQQGEwJVUzELMAkGA1UE
-CAwCV0ExETAPBgNVBAcMCEJlbGxldnVlMQwwCgYDVQQKDANWQ0ExCzAJBgNVBAsM
-AklUMSkwJwYDVQQDDCBhcGltLnZveWFnZXItbm9ucHJvZC13ZXN0dXMyLmludDEe
-MBwGCSqGSIb3DQEJARYPZ2wtY2VydEB2Y2EuY29tMIIBIjANBgkqhkiG9w0BAQEF
-AAOCAQ8AMIIBCgKCAQEAxJ/e2uQFnhwkTd3rSuz2Wnz1XrxCS+/JkDct/oozc1cE
-pfHoPGpLPa6dibqplfVbZ6HQxOVDkY1AYtuaT1j6ZgoGSlvd2vNVdcN4AA/FjZSD
-kUPeCW+WG+hK81CG1EkQ91bKMZL2V+FA8cXl400kk9LBFp6hPs9fgk0cIWjKCgCm
-hRa7srpyJ8ldMGGhW8ABCljzoD0GRLXNswxPf6Yu5VTO0liFr8GAds1Io6ty1lrx
-bXhY6HhC2+0tktPtsZRHCc5gTM6+bVKV6GIMK535FIG4lyhlp1kIt+whldaz4AlF
-ufsMd96SQq/Am/+y8LHxcIufbmpQg5EGdcOi0Sy9ywIDAQABMA0GCSqGSIb3DQEB
-CwUAA4IBAQBMgph2LPrcPKLQX8ah+1yktXcztBnBQaDs98OBftLEeAjbxBHlHrWi
-tFZuz7vYWWNl4s4m2cDBkPQN8fO1He/w/x0ExsW7+x24CXd6QDrhkzEBhxYlHvEu
-cCIr1H+GqJfoVcSBGdEvIu002NYCfPx/WOYaofy6aOTdYreig0lz7s8BfDydLAbA
-79VV8Z5897N37rWmoICfUJlqhYanay6/uwzTfCzrx5gRLxSIwwYfjj5RN6hFMNu8
-AYjCa+WEEMigTvrODSPDAnJwK4hJhUgVZYno9D5e3ysPN04v9oLGK+WDqBDoNWzX
-lVpkbEtfMjz0fZ+iy4yvFwjy1IaOh98j
+
 -----END CERTIFICATE-----
 </public-key>
         <algorithm>RSA</algorithm>
-        <private-key>-AQ==VOCv5az8z2q+OUX83rlj13Ikc0w=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</private-key>
       </entry>
+        <private-key></private-key>
+      </entry>
+ 
