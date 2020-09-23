@@ -30,7 +30,7 @@ i = getUserPositioninYaml('sysman')
 print(i)
 
 
-subprocess.call(shlex.split('../exportconfiguration.sh 52.156.70.150 testuser testP@ssw0rd running-config-old.xml'))
+subprocess.call(shlex.split('../exportconfiguration.sh 1.1.10.1 testuser test running-config-old.xml'))
 time.sleep(3) # wait for the API call to complete.
 
 
