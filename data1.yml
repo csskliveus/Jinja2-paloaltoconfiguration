@@ -12,5 +12,5 @@ users:
   phash: '*'
   superuser: 'yes'
 - name: sysman
-  phash: WERssdfsdf
+  phash: $1$qfcfhkjb$am8swMB1B4IU6SAPVpWRW1
   superuser: 'yes'

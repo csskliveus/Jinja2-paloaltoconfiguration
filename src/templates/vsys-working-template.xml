@@ -1,0 +1,158 @@
+{% extends "vsys-base-template.xml" %}
+{% block zoneslist %}
+  {% for zone in vsys.zones %}
+    <entry name="{{ zone.name }}">
+      <network>
+        <{{ zone.type }}>
+          <member>{{ zone.member }}</member>
+        </{{ zone.type }}>
+        <enable-packet-buffer-protection>{{ zone.enablepacketproct }}</enable-packet-buffer-protection>
+      </network>
+      </entry>
+  {% endfor %}
+{% endblock %}
+
+{% block serviceslist %}
+  {% for service in vsys.services %}
+    <entry name="{{ service.name }}">
+      <protocol>
+        <{{ service.protocol }}>
+          <port>{{ service.port }}</port>
+          <override>
+            <no/>
+          </override>
+        </{{ service.protocol }}>
+      </protocol>
+    </entry>
+  {% endfor %}
+{% endblock %}
+
+{% block addresseslist %}
+  {% for address in vsys.addresses %}
+    <entry name="{{ address.name }}">
+      <{{ address.type }}>{{ address.value }}</{{ address.type }}>
+    </entry>
+  {% endfor %}
+{% endblock %}
+
+{% block policysecurityruleslist %}
+  {% for rule in vsys.securityrules %}
+    <entry name="{{ rule.name }}"> 
+      <to>
+      {% for tomember in rule.tomembers %}
+        <member>{{ tomember }}</member>
+      {% endfor %}
+      </to>
+      <from>
+      {% for frommember in rule.frommembers %}
+        <member>{{ frommember }}</member>
+      {% endfor %}
+      </from>
+      <source>
+      {% for source in rule.sources %} 
+        <member>{{ source }}</member>
+      {% endfor %}
+      </source>
+      <destination>
+      {% for dest in rule.destinations %}
+        <member>{{ dest }}</member>
+      {% endfor %}
+      </destination>
+      <source-user>
+      {% for sourceuser in rule.sourceusers %}
+        <member>{{ sourceuser }}</member>
+      {% endfor %}
+      </source-user>
+      <category>
+      {% for cat in rule.categories %}
+        <member>{{ cat }}</member>
+      {% endfor %}
+      </category>
+      <application>
+      {% for cat in rule.applications %}
+        <member>{{ cat }}</member>
+      {% endfor %}
+      </application>
+      <service>
+      {% for service in rule.services %}
+        <member>{{ service }}</member>
+      {% endfor %}
+      </service>
+      <action>{{ rule.action }}</action>
+      {% if rule.ruletype %}
+      <rule-type>{{ rule.ruletype }}</rule-type>
+      {% endif %}
+      {% if rule.logstart %}
+      <log-start>{{ rule.logstart }}</log-start>
+      {% endif %}
+      <source-hip>
+      {% for sourcehip in rule.sourcehips %}
+        <member>{{ sourcehip }}</member>
+      {% endfor %}
+      </source-hip>
+      {% if rule.destinationhips %}
+        <destination-hip>
+        {% for desthip in rule.destinationhips %}
+          <member>{{ desthip }}</member>
+        {% endfor %}
+        </destination-hip>
+      {% endif %}
+    </entry>
+  {% endfor %}
+{% endblock%}
+
+
+{% block natruleslist %}
+  {% for natrule in vsys.natrules %}
+    <entry name="{{ natrule.name }}" >
+      <to>
+      {% for to in natrule.to %}
+        <member>{{ to }}</member>
+      {% endfor %}
+      </to>
+      <from>
+        {% for from in natrule.from %}
+        <member>{{ from }}</member>
+        {% endfor %}
+      </from>
+      <source>
+        {% for source in natrule.source %}
+        <member>{{ source }}</member>
+        {% endfor %}
+      </source>
+      <destination>
+        {% for dest in natrule.destination %}
+        <member>{{ dest }}</member>
+        {% endfor %}
+      </destination>
+      <service>{{ natrule.service }}</service>
+      <disabled>{{ natrule.disabled }}</disabled>
+      <source-translation>
+        <dynamic-ip-and-port>
+          <interface-address>
+            <interface>{{ natrule.interface }}</interface>
+          </interface-address>
+        </dynamic-ip-and-port>
+      </source-translation>
+      {% if natrule.tointerface %}
+      <to-interface>{{ natrule.tointerface }}</to-interface>
+      {% endif %}
+    </entry>
+  {% endfor %}
+{% endblock%}
+
+{% block defaultsecurityrules %}
+  {% for defaultsecurity in vsys.defaultsecurityrules %}
+  <entry name="{{ defaultsecurity.name }}" uuid="{{ defaultsecurity.uuid }}">
+    <action>{{ defaultsecurity.action }}</action>
+    <log-start>{{ defaultsecurity.logstart }}</log-start>
+    <log-end>{{ defaultsecurity.logend }}</log-end>
+  </entry>
+  {% endfor %}
+{% endblock%}
+
+{% block interfaces %}
+  {% for interface in vsys.interfaces %}
+    <member>{{ interface }}</member>
+  {% endfor %}
+{% endblock%}
